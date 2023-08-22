@@ -1,0 +1,10 @@
+site_name: ${artifactId}
+theme:
+  name: readthedocs
+
+repo_name: DANS-KNAW/${artifactId}
+repo_url: https://github.com/DANS-KNAW/${artifactId}
+
+nav:
+  # Redirect to Swagger UI
+  - API: index.html

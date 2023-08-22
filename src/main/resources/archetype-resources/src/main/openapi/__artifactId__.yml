@@ -1,0 +1,23 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+openapi: 3.0.1
+
+servers:
+  - url: http://localhost:${portNumber}/
+
+info:
+  description: Service for ...
+  version: ${symbol_dollar}{project.version}
+  title: ${artifactId}
+  contact:
+    email: info@dans.knaw.nl
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+
+paths:
+  # API endpoints
+
+components:
+  # Reusable schemas

@@ -1,0 +1,33 @@
+# Maven
+/target/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/pom.xml.next
+/release.properties
+/dependency-reduced-pom.xml
+/buildNumber.properties
+/.mvn/timing.properties
+
+# Vi
+*~
+*.swp
+
+# Mac OS Finder
+.DS_Store
+
+# IntelliJ
+/*.iml
+/.idea/
+
+# mkdocs
+/site
+/venv/
+/.venv-mkdocs
+
+# Eclipse
+/.project
+/.settings
+/.cladocssspath
+/.cache
+
