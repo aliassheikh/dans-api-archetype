@@ -27,7 +27,7 @@
     <artifactId>dans-api-archetype</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
-    <name>DANS Module Archetype</name>
+    <name>DANS API Archetype</name>
     <description>Maven archetype for creating a shareable DANS API definition in OpenAPI.</description>
     <inceptionYear>2023</inceptionYear>
     <scm>
