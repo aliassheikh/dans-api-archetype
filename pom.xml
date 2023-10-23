@@ -25,14 +25,14 @@
         <relativePath />
     </parent>
     <artifactId>dans-api-archetype</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>maven-archetype</packaging>
     <name>DANS API Archetype</name>
     <description>Maven archetype for creating a shareable DANS API definition in OpenAPI.</description>
     <inceptionYear>2023</inceptionYear>
     <scm>
         <developerConnection>scm:git:ssh://github.com/DANS-KNAW/${project.artifactId}</developerConnection>
-        <tag>v0.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
     <repositories>
         <repository>
