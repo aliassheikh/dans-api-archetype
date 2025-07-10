@@ -14,16 +14,13 @@
 # limitations under the License.
 #
 
+# Fail on error
+set -e
+
 mvn dans-build-resources:get-helper-script
+mvn initialize # To ensure API definition is downloaded
 
-echo -n "Removing existing files if present..."
-if [ -d "docs/swagger-ui" ]; then rm -fr docs/swagger-ui; fi
-if [ -f "docs/api.yml" ]; then rm docs/api.yml; fi
-echo "OK"
-
-echo -n "Deploying Swagger UI and API definition..."
+echo "Deploying Swagger UI and API definition..."
 sh target/add-swagger-ui.sh
-cp target/classes/*.yml docs/api.yml
-echo "OK"
-
+cp src/main/openapi/*.yml docs/api.yml
 echo "DONE"
