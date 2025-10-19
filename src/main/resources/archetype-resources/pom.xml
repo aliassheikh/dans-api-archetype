@@ -23,7 +23,7 @@
     </scm>
 
     <properties>
-        <dans-build-resources-maven-plugin.version>0.7.0</dans-build-resources-maven-plugin.version>
+        <dans-build-resources-maven-plugin.version>0.8.0</dans-build-resources-maven-plugin.version>
     </properties>
 
     <build>
